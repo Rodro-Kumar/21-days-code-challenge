@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primaryfontCOlor: #feffff;
+  --secondaryColor: #0c0418;
+  --primaryBgColor: #ba0bf9;
+  --secondaryBgColor: #5e4af1;
+  --Antonio: "Antonio", sans-serif;
+  --Anton: "Anton", sans-serif;
+  --Poppins: "Poppins", sans-serif;
+}
+
+@layer base {
+  /* Antonio */
+  @import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap");
+
+  /* Anton */
+  @import url("https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap");
+
+  /* Poppins */
+  @import url("https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  body {
+    background: var(--secondaryColor);
+  }
+
+  * {
+    @apply m-0 p-0 outline-none box-border;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  li,
+  ul,
+  ol,
+  div,
+  img {
+    @apply m-0 p-0;
+  }
+  a {
+    @apply no-underline;
+  }
+  li,
+  ul,
+  ol {
+    @apply list-none;
+  }
+
+  /* utilities */
+
+  .common-title {
+    font-size: 40px;
+    color: var(--primaryfontCOlor);
+    font-family: var(--Anton);
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 734px) {
+    .common-title {
+      font-size: 25px;
+    }
+  }
+
+  #header {
+    background-image: url("../src/assets/Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
