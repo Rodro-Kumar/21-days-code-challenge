@@ -6,7 +6,7 @@ const Experience = () => {
       <div className="pb-[50px] px-4 lg:px-0">
         <div className="container">
           <div className="flex items-start sm:items-center flex-wrap justify-center gap-y-3 md:gap-y-0 md:justify-between">
-            <div className="max-w-[158px] lg:max-w-[205px]">
+            <div className="max-w-[150px] lg:max-w-[205px]">
               <h4 className="text-[50px] lg:text-[115px] font-Anton font-normal text-primaryfontCOlor">
                 20+
               </h4>

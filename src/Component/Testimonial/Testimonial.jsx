@@ -6,7 +6,7 @@ import img3 from "../../assets/Testimonial/3.png";
 function Testimonial() {
   return (
     <>
-      <div className="pb-16 md:pb-36 px-4 lg:px-0">
+      <div id="testimonial" className="pb-16 md:pb-36 px-4 lg:px-0">
         <div className="container">
           <div>
             <div className="flex flex-col items-center justify-center">
