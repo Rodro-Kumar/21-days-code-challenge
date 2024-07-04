@@ -69,7 +69,7 @@
   }
 
   #header {
-    background-image: url("../src/assets/Banner/Rectangle\ 5.png");
+    background-image: url("/src/assets/Banner/headerbg.png");
     background-repeat: no-repeat;
     background-position: center;
   }
