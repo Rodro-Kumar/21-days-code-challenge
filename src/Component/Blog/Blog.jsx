@@ -6,6 +6,9 @@ import rigthticon from "../../../src/assets/Icon/rigth.png";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
+import img1 from "../../assets/Blogs/1.png";
+import img2 from "../../assets/Blogs/2.png";
+import img3 from "../../assets/Blogs/3.png";
 
 const Blog = () => {
   return (
@@ -45,11 +48,11 @@ const Blog = () => {
               }}
             >
               <SwiperSlide>
-                <BlogCard />
+                <BlogCard img={img1} />
               </SwiperSlide>
               <SwiperSlide>
                 <BlogCard
-                  img={"/src/assets/Blogs/2.png"}
+                  img={img2}
                   description={
                     "Mastering Web Design: Blending Art and Tech for Digital Brilliance"
                   }
@@ -57,7 +60,7 @@ const Blog = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <BlogCard
-                  img={"/src/assets/Blogs/3.png"}
+                  img={img3}
                   description={
                     "Launching Your Code: Rocketing to New Heights in Web Developmen"
                   }
@@ -65,7 +68,7 @@ const Blog = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <BlogCard
-                  img={"/src/assets/Blogs/3.png"}
+                  img={img1}
                   description={
                     "Launching Your Code: Rocketing to New Heights in Web Developmen"
                   }
@@ -73,7 +76,7 @@ const Blog = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <BlogCard
-                  img={"/src/assets/Blogs/3.png"}
+                  img={img2}
                   description={
                     "Launching Your Code: Rocketing to New Heights in Web Developmen"
                   }
